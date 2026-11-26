@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    background-color: #5C4033;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    border: solid thin black;
+}
+
+tr:nth-child(2n){
+    background-color: cyan;
+}
+
+a {
+    color: white;
+    border: solid thin blue;
+    border-radius: 10px;
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.div{
+    border:  solid thick black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-color: #5C4033;
+    color: white;
+}
+
+
+form{
+    border: solid thick white;
+    max-width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5%;
+}
+
+form > *{
+    width:45%;
+    margin: 1%;
+}
+
+form > :last-child{
+    width: 100%;
+    border-radius: 12px;
+    background-color: yellow;
+    color: blue;
+}
+
+
+
+
+
